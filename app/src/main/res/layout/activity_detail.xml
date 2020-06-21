@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+
+    <ImageView
+        android:id="@+id/image_detail"
+        android:layout_width="155dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="16dp"
+        android:foregroundTint="@color/cardview_dark_background"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="157dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="280dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout3"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_detail"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/text_ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Ingradient"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ingradient_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ingradient_one" />
+
+        <TextView
+            android:id="@+id/ingradient_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ingradient_two" />
+
+        <TextView
+            android:id="@+id/ingradient_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ingradient_three" />
+
+        <TextView
+            android:id="@+id/ingradient_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ingradient_four" />
+
+        <TextView
+            android:id="@+id/ingradient_five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ingradient_five" />
+
+        <TextView
+            android:id="@+id/ingradient_six"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ingradient_six" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="172dp"
+        android:layout_height="137dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="280dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_detail"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/text_measures"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Measures : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/measure1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/measure2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/measure3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/measure4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/measure5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/measure6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="412dp"
+        android:layout_height="255dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/instruction"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="TextView" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/text_detail"
+        android:layout_width="155dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="1dp"
+        android:text="TextName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_detail" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FirstJsonTest</string>
+    <string name="Instruction">Instructions : </string>
+    <string name="Ingradient">Ingradients : </string>
+    <string name="Category">Category : </string>
+</resources>
